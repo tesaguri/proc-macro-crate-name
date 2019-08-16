@@ -1,0 +1,11 @@
+[package]
+name = "foo"
+version = "0.0.0"
+edition = "2018"
+publish = false
+
+[dependencies]
+foo-derive = { path = "../foo-derive" }
+
+[dev-dependencies]
+foo = { path = "" }
